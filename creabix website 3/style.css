@@ -4,10 +4,26 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* background-color: rgb(19, 6, 6); */
     overflow-x:visible;
  
 }
+
+.logo{
+    width: 50%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.nav-link{
+    color: white !important;
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -26,8 +42,9 @@
   
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
-
   }
+
+
 /* Second work on image*/
 header img {
     display: block;
@@ -36,17 +53,13 @@ header img {
     margin-right: auto;
 }
 .header-image{
-    /* padding-right: -300px; */
     background: url(./pics/gradient-figure.png);
-    width: 100%;
-    height: 200px;
+    height: 70vh;
+    background-size: contain;
     background-repeat: no-repeat;
-   background-position: center ;
-    /* z-index: 3; */
-    /* position: absolute; */
-    /* top: 0;
-    right: 0; Position it on the right side of the slider */
-    /* z-index: 1;  */
+    background-position: center ;
+    position: relative;
+    left: -30%;
 }
 
 /* Changes the styling of links if necessary */
@@ -137,21 +150,11 @@ header {
     display: flex;
     position: relative;
 }
-.slidder{
-    /* margin-left: 10%; */
-    padding-left: 20px; 
+
+.SectionTwo{
+border: none;
 }
-/* .header-img {
-        position: relative;
-        padding-right: 30%;
-        margin-right: 20%;   
-} */
-/* .header-slider {
-    position: absolute;
-    top: 50;
-    left: 0;
-    z-index: 1;
-} */
+
 .card{
  padding-top: 50px;
  overflow-x: auto;
@@ -358,17 +361,11 @@ font-size: 20px;
 }
  /* Style for the slider container */
  .slider-container {
-    position: relative;
-    width: 500px; /* Adjust the width as needed */
     margin: 0 auto; /* Center the container */
+    width: 80%;
 }
 
 /* Style for the slider itself */
-.slider {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
 
 /* Style for the image to the right of the slider */
 .right-image {

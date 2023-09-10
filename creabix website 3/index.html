@@ -13,31 +13,54 @@
 </head>
 
 <body>
+
+
+
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"
             style="color: #f4f7fa;"></i></button>
-    <div class="container-fluid menu">
-        <header>
-            <img class="logo" src="./pics/logo_purple (1).png" alt="Loading image">
-            <nav class="nav-bar">
-                <ul class="navigate_links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Mega Menu</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+    <div class=" menu">
 
-            <a class="signin button" href="#">
-                <p><i class="fa-solid fa-phone call" style="color: #643c77;"></i> Call Us: 800 2563 123
-                    <i class="fa-solid fa-magnifying-glass search-bar" style="color: #773a83;"></i>
-                </p>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img class="logo" src="./pics/logo_purple (1).png"
+                        alt="Loading image"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Mega Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Shop</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a class="signin button" href="#">
+                            <p><i class="fa-solid fa-phone call" style="color: #643c77;"></i> Call Us: 800 2563 123
+                                <i class="fa-solid fa-magnifying-glass search-bar" style="color: #773a83;"></i>
+                            </p>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
-            </a>
-        </header>
         <div class="row header">
-            <div class="col-md-6 slidder">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 slidder">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner header-slider" style="border-radius: 20px 20% 20px 20%;">
                         <div class="slider-container">
@@ -57,17 +80,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 header-image">
-                <!-- <img src="./pics/gradient-figure (1).png" alt="image" class="right-image"> -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 header-image">
                 <div class="overlape">
-                    <h2></h2>
+                    <h2>Digital growth experts</h2>
+                    <p>Ensuring the best return on investment for your bespoke SEO campaign requirement.</p>
+                    <div class="section-button">
+                        <button>>more About us</button>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
     <!-- for three cards -->
-    <div class="container-fluid card">
+    <div class="container-fluid SectionTwo card">
         <div class="background-img">
             <div class="row card-text">
                 <h5>CARE FEATURES</h5>
@@ -134,11 +160,11 @@
                     Eam iriure
                     diceret oporteat.</p>
                 <div class="row">
-                    <div class="col-md-2 icon">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 icon">
                         <img src="./pics/blue-chek-icon.png" alt="" width="50%" height="auto">
                     </div>
 
-                    <div class="col-md-10">
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-10">
                         <p><span> For startups and growing businesses, an online specialist can develop a digital
                                 marketing plan to help you grow.</span></p>
                     </div>
@@ -349,44 +375,112 @@
         </div>
     </div>
     <!-- footer section -->
-    <div class="container-fluid foot">
-        <div class="container" style="--widgets-spacing: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="row">
+                    <div class="col-md-2">
+                        <figure>
+                            <img src="./pics/img_box_29_violet.png" alt="img">
+                        </figure>
+                    </div>
+                    <div class="col-md-10">
+                        <h6>8 800 2534 236</h6>
+                        <p>email@yoursite.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="row">
+                    <div class="col-md-2">
+                        <figure style="height: 80%;">
+                            <img src="./pics/img_box_30_violet.png" alt="img">
+                        </figure>
+                    </div>
+                    <div class="col-md-10">
+                        <h6>27 Division St, New York, NY</h6>
+                        <p>10002, United States</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="row">
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" placeholder="Email Address"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                    </div>
+                    <div class="col-md-2">
+                        <input class="btn btn-outline-secondary" type="button" id="button-addon2" value="SIGN UP">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" foot">
+        <div class="container">
             <div class="row">
-                <div class="footer-section" style="display: flex;">
-                    <div class="col-md-6" style="display: flex;">
-                        <div style="display: flex;">
-                            <div>
+                <div class="footer-section">
+                    <!-- <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-2">
                                 <figure>
                                     <img src="./pics/img_box_29_violet.png" alt="img">
                                 </figure>
                             </div>
-                            <div>
+                            <div class="col-md-10">
                                 <h6>8 800 2534 236</h6>
                                 <p>email@yoursite.com</p>
                             </div>
                         </div>
-                        <div>
-                            <div style="display: flex;">
-                                <div>
-                                    <figure style="height: 80%;">
-                                        <img src="./pics/img_box_30_violet.png" alt="img">
-                                    </figure>
-                                </div>
-                                <div>
-                                    <h6>27 Division St, New York, NY</h6>
-                                    <p>10002, United States</p>
-                                </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <figure style="height: 80%;">
+                                    <img src="./pics/img_box_30_violet.png" alt="img">
+                                </figure>
+                            </div>
+                            <div class="col-md-10">
+                                <h6>27 Division St, New York, NY</h6>
+                                <p>10002, United States</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Email Address"
-                                aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <input class="btn btn-outline-secondary" type="button" id="button-addon2" value="SIGN UP">
+                    <div class="col-md-4"></div> -->
+                    <!-- <div class="col-md-12 ">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <figure>
+                                    <img src="./pics/img_box_29_violet.png" alt="img">
+                                </figure>
+                            </div>
+                            <div class="col-md-10">
+                                <h6>8 800 2534 236</h6>
+                                <p>email@yoursite.com</p>
+                            </div>
                         </div>
-
-                    </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <figure style="height: 80%;">
+                                    <img src="./pics/img_box_30_violet.png" alt="img">
+                                </figure>
+                            </div>
+                            <div class="col-md-10">
+                                <h6>27 Division St, New York, NY</h6>
+                                <p>10002, United States</p>
+                            </div>
+                        </div>
+                        <div class="row input-group mb-3">
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="Email Address"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                            </div>
+                            <div class="col-md-2">
+                                <input class="btn btn-outline-secondary" type="button" id="button-addon2"
+                                    value="SIGN UP">
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
             <hr>
